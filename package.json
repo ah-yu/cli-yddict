@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "cli for youdao dictionary",
   "main": "./dist/index.js",
+  "bin": {
+    "yddict": "./bin/dictionary.js"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -20,10 +23,10 @@
   },
   "homepage": "https://github.com/buji1993/cli-yddict#readme",
   "dependencies": {
-    "@types/request-promise-native": "^1.0.7",
     "chalk": "^2.1.0",
     "cheerio": "^1.0.0-rc.2",
     "cli-spinner": "^0.2.6",
+    "commander": "^2.11.0",
     "is-chinese": "^1.2.5",
     "request": "^2.82.0",
     "request-promise-native": "^1.0.5"

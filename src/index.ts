@@ -8,7 +8,7 @@ import * as cheerio from "cheerio";
 const chalk = require('chalk');
 const isChinese = require('is-chinese');
 
-export async function query(word: string) {
+export function query(word: string) {
     const isCN = isChinese(word);
     const color_output = chalk.keyword('white');
 
@@ -21,7 +21,7 @@ export async function query(word: string) {
         transform: (body: any) => { return cheerio.load(body); }
     }
 
-    return await request(options).then(($: CheerioStatic) => {
+    return request(options).then(($: CheerioStatic) => {
         let result = '';
         if (isCN) {
             $('div.trans-container > ul').find('p.wordGroup').each(function (i, elm) {
