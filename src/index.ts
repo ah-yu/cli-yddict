@@ -1,7 +1,3 @@
-/// <reference path='../typings/is-chinese.d.ts' />
-
-// import isChinese from "is-chinese";
-// import * as request from "request";
 import * as request from "request-promise-native"
 import * as cheerio from "cheerio";
 
