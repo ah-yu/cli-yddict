@@ -4,7 +4,8 @@
   "description": "cli for youdao dictionary",
   "main": "./dist/index.js",
   "bin": {
-    "yddict": "./bin/dictionary.js"
+    "yddict": "./bin/dictionary.js",
+    "yd": "./bin/dictionary.js"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
