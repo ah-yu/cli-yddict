@@ -39,6 +39,7 @@ $ yddict -h
 
   Options:
 
-    -V, --version  output the version number
-    -h, --help     output usage information
+    -V, --version       output the version number
+    -c --color [color]  define output string color
+    -h, --help          output usage information
 ```

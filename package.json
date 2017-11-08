@@ -14,7 +14,7 @@
     "url": "git+https://github.com/buji1993/cli-yddict.git"
   },
   "keywords": [
-    "typescript"
+    "javascript"
   ],
   "author": "buji",
   "license": "MIT",
@@ -30,10 +30,5 @@
     "is-chinese": "^1.2.5",
     "request": "^2.82.0",
     "request-promise-native": "^1.0.5"
-  },
-  "devDependencies": {
-    "@types/cheerio": "^0.22.2",
-    "@types/request": "^2.0.3",
-    "@types/request-promise-native": "^1.0.7"
   }
 }
