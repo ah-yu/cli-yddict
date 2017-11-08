@@ -11,10 +11,6 @@ $ npm install
 ```
 
 ```bash
-$ tsc
-```
-
-```bash
 $ npm link
 ```
 
