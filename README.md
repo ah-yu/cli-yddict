@@ -1,4 +1,7 @@
 # Cli-yddict
+
+[![Greenkeeper badge](https://badges.greenkeeper.io/ah-yu/cli-yddict.svg)](https://greenkeeper.io/)
+
 command line interface for youdao dictionary
 
 ## Install
